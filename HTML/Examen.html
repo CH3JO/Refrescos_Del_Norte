@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html Lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv-"X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio</title>
+
+	<link rel="stylesheet" href="../CSS/estilo inicio.css"> 
+
+	<script>
+		if (sessionStorage.getItem("IngresoCorrecto") != "True"){
+			window.location.href = "Examen.html";
+		}
+	</script>	
+
+</head>
+<body>
+<!-- estructura del encabezado y barra de navegacion-->
+	<header class="header">
+		<div class="contenedor logo-nav-contenedor">
+		<a href="#" class="logo">LOGO</a>
+		
+		<nav class="navigator">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="Produccion.html">Produccion</a></li>
+				<li><a href="Calidad y ambiente.html">Calidad y ambiente</a></li>
+				<li><a href="Mantenimiento.html">Mantenimiento</a></li>
+				<li><a href="Promocion y ventas.html">Promocion y ventas</a></li>
+			<ul>
+		</nav>
+		</div>
+	</header>
+	
+<!-- Cuerpo del documento con los parrafos de texto-->	
+	<main class="main">
+		<div class="contenedor">
+			<h1>Refrescos del norte</h1>
+			<img src="../CSS/Media/Logo.png">
+	
+			<p>Una bebida carbonatada, denominada gaseosa, refresco, fresco o soda, dependiendo del país, es una bebida saborizada, hecha con agua carbonatada, edulcorantes naturales como fructosa o sacarosa, o sintéticos como el ciclamato (E952), acidulantes, colorantes, antioxidantes, estabilizadores de acidez y conservadores.
+			Estas bebidas suelen consumirse frías, para ser más refrescantes. Se ofrecen diversos sabores de gaseosas, entre otros cola, naranja, lima limón, uva, cereza y ponche.
+			En algunos países se llama gaseosa o soda a un tipo específico de estas bebidas carbonatadas, que es incolora y sin más saborizante que el azúcar o edulcorante.
+			En Argentina, Perú y Colombia,1​ se lo conoce como gaseosa. En Uruguay, Perú, Guatemala, El Salvador, Honduras y Nicaragua se le llama refresco a una bebida de jugo de frutas. En Chile, se les nombra exclusivamente bebida, en desprecio de otros líquidos como las aguas, los jugos o los alcoholes bebestibles</p>
+		</div>
+	<!-- Codigo para mostrar un video de youtube en la pagina web-->	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/0yO1ZO_lTKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</main>
+
+	<!-- creacion del pie de la pagina web-->
+	<footer class="footer">
+	
+		<div class="contenedor">
+			<p> Página diseñada por Sergio Gonzalez</p>
+		</div>
+	<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+	</p>
+            
+	</footer>
+	
+</body>
+</html>
